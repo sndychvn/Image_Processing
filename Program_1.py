@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-i = Image.open('D:/Downloads/sample1.jpg')
+i = Image.open('D:/Downloads/dot.jpg')
 iar = np.array(i)
 
 print(iar)
