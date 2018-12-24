@@ -3,7 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-i = Image.open('D:/Downloads/dot.jpg')
+i = Image.open('images/numbers/y0.5.png')
+plt.imshow(i)
+plt.show()
 iar = np.array(i)
 
 print(iar)
