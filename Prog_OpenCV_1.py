@@ -13,5 +13,5 @@ cv2.destroyAllWindows()
 
 
 plt.imshow(img, cmap='gray', interpolation='bicubic')
-plt.plot()
+plt.plot([50, 100], [80,100], 'c', linewidth=6)
 plt.show()
